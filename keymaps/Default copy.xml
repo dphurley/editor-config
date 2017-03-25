@@ -1,4 +1,9 @@
 <keymap version="1" name="Default copy" parent="$default">
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
+    <keyboard-shortcut first-keystroke="shift alt back_space" />
+    <keyboard-shortcut first-keystroke="shift alt z" />
+  </action>
   <action id="$SelectAll">
     <keyboard-shortcut first-keystroke="ctrl a" />
     <keyboard-shortcut first-keystroke="alt a" />
@@ -12,11 +17,18 @@
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="alt w" />
   </action>
+  <action id="Editor Redo">
+    <keyboard-shortcut first-keystroke="shift alt z" />
+  </action>
   <action id="Editor SelectAll">
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="alt z" />
+  </action>
+  <action id="EditorJoinLines">
+    <keyboard-shortcut first-keystroke="shift ctrl j" />
+    <keyboard-shortcut first-keystroke="shift alt j" />
   </action>
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="end" />
@@ -52,6 +64,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl n" />
     <keyboard-shortcut first-keystroke="shift alt o" />
   </action>
+  <action id="GotoLine" />
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="alt insert" />
     <keyboard-shortcut first-keystroke="alt n" />
@@ -67,6 +80,7 @@
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="alt j" />
     <keyboard-shortcut first-keystroke="alt g" />
+    <keyboard-shortcut first-keystroke="ctrl g" />
   </action>
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="alt comma" />
@@ -86,5 +100,10 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
+  <action id="UnselectPreviousOccurrence">
+    <keyboard-shortcut first-keystroke="shift alt g" />
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
+  </action>
   <action id="VcsHistory.ShowAllAffected" />
+  <action id="hg4idea.QGotoFromPatches" />
 </keymap>
