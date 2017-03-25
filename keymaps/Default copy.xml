@@ -19,6 +19,11 @@
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="alt w" />
   </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="ctrl slash" />
+    <keyboard-shortcut first-keystroke="ctrl divide" />
+    <keyboard-shortcut first-keystroke="alt slash" />
+  </action>
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="shift alt z" />
   </action>
@@ -79,6 +84,7 @@
     <keyboard-shortcut first-keystroke="shift alt o" />
   </action>
   <action id="GotoLine" />
+  <action id="HippieCompletion" />
   <action id="MethodDown" />
   <action id="MethodUp" />
   <action id="NewElement">
